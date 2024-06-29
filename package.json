@@ -1,0 +1,19 @@
+{
+  "name": "checkout-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "start": "npm run build && node ./dist/main.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "ts-jest": "^29.1.5",
+    "typescript": "^5.5.2"
+  }
+}
